@@ -123,3 +123,65 @@ nav {
     width: 100%;
 
    }
+   .h1-text{
+    text-align: justify;
+    text-align-last: right;
+   }
+   /* .Places > div{
+    background-color:white;
+      width: 30%;
+      margin: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      
+    } */
+    .Places img{
+      width: 300px;
+      height: 300px;
+    }
+    /* #Place-1{
+      height: 250px;
+      width: 100vw;
+      overflow-clip-margin: content-box;
+    }
+    #pic-two{
+      height: 250px;
+    }
+    #pic-three{
+     
+    } */
+    .Place-1 {
+        text-align: center;
+        padding: 10px;
+        /* border: 1px solid #ddd; */
+        /* border-radius: 8px; */
+        /* background-color: #fff; */
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+        height: 100px;
+      width: 50vw;
+      /* overflow-clip-margin: content-box; */
+    }
+    .Places {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        }
+    .second-places{
+        /* display: flex; */
+        display:contents;
+        justify-content: space-around;
+        align-items:baseline;
+        padding-top: 50px;
+        margin: 20px 0;
+    }
+    .Place-two{
+        padding-top: 300px
+
+    }
+    .section-three{
+        background-image: url(../asset/images/small\ ship.webp);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
